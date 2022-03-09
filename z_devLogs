@@ -1,0 +1,15 @@
+08/03/2022 - Class counter
+
+Tried to add listener for classes, tried to find a Class named CLASS and then tried to find the place where buttons on the GUI are pressed
+Found inside the ApplicationState code the listener already exist (generic one with DiagramEditor class)
+    Try to find type of element, there is a list of class DiagramElement "line 365", 
+    Found ElementType Class that have the type
+    Try to find another way and add type of element to handler in the ApplicationState but inside DiagramElement there is no property easy to understand, 
+        found DiagramElement but is 
+    Try to looking for "ElementType.class" in all files and fond SequenceDiagramEditor extend DiagramEditor
+    Find in MODEL UMLCLASS class is called in different files, found also a directory STRUCTURE so draw and logical strcture seems separat
+    Find "StructureDiagram extend DiagramEditor" that have a MAP with all objects include CLASS and in the key there is the type 
+    Go to looking for COMPONENT class, i can get component selected when built...
+    Found from analysys of getUMLModel the content and found UMLMODEL+UMLMODELIMPL that cotains all. Want to add methodods that count classes
+    DIAGRAMS can have multiple UMLDIAGRAM, but there is a LINKEDLIST inside with childre and this part is quite complicated 
+    because is not linear and each kind of component implement different property and methods (this is a big difference with Javascript)

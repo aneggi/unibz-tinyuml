@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.java.j2seproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+            <name>tinyuml</name>
+            <minimum-ant-version>1.6.5</minimum-ant-version>
+            <source-roots>
+                <root id="src.java.dir" name="Java sources"/>
+                <root id="src.resources2.dir" name="Application resources"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.java.dir" name="Test packages"/>
+            </test-roots>
+        </data>
+    </configuration>
+</project>
